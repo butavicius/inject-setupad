@@ -10,25 +10,25 @@ window.addEventListener('DOMContentLoaded', () => {
       </script>
     </div>`;
     
-    // const adUnit2Code = `
-    //   <div id="inject.lt_300x250_above_content_2" style="width: 300px; height: 250px; background-color: green">
-    //     <script>
-    //       const self = document.getElementById('inject.lt_300x250_above_content_2');
-    //       self.innerHTML = '<h3>This is ad 2</h3>';
-    //     </script>
-    //   </div>`;
-
     const adUnit2Code = `
-    <div style="display: flex; flex-direction: column; gap: 30px">
-      <div id="random_shit" style="width: 300px; height: 250px; background-color: yellow"></div>
       <div id="inject.lt_300x250_above_content_2" style="width: 300px; height: 250px; background-color: green">
         <script>
           const self = document.getElementById('inject.lt_300x250_above_content_2');
           self.innerHTML = '<h3>This is ad 2</h3>';
         </script>
-      </div>
-    </div>`;
+      </div>`;
 
-    ad1Container.innerHTML = adUnit1Code;
-    ad2Container.innerHTML = adUnit2Code;
+      // const adUnit2Code = `
+      // <div style="display: flex; flex-direction: column; gap: 30px">
+      //   <div id="random_shit" style="width: 300px; height: 250px; background-color: yellow"></div>
+      //   <div id="inject.lt_300x250_above_content_2" style="width: 300px; height: 250px; background-color: green">
+      //     <script>
+      //       const self = document.getElementById('inject.lt_300x250_above_content_2');
+      //       self.innerHTML = '<h3>This is ad 2</h3>';
+      //     </script>
+      //   </div>
+      // </div>`;
+      
+      ad1Container.innerHTML = adUnit1Code;
+      ad2Container.innerHTML = adUnit2Code;
 })
